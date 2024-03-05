@@ -82,5 +82,5 @@ Si deseas aplicar cambios específicos en la apariencia de la página de pago, p
 ## 8. Consideraciones
 Para obtener más información, echa un vistazo a:
 - [Formulario incrustado: prueba rápida](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/quick_start_js.html)
-- [Primeros pasos: pago simple](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/guide/start.html)
-- [Servicios web - referencia de la API REST](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/reference.html)
+- [Primeros pasos: pago simple](https://secure.micuentaweb.pe/doc/es-PE/m-payment/webview/cinematica-de-pago.html)
+- [Servicios web - referencia](https://github.com/izipay-pe/Server-Webview-Java)
