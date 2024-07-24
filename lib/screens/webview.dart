@@ -12,7 +12,7 @@ class PaymentWebView extends StatefulWidget {
 late String getUrlPref;
 
 class PaymentWebViewState extends State<PaymentWebView> {
-  late WebViewController _webViewController;
+  WebViewController? _webViewController;
 
   @override
   void initState() {
@@ -35,6 +35,7 @@ class PaymentWebViewState extends State<PaymentWebView> {
         },
         navigationDelegate: (NavigationRequest request) {
           final url = request.url;
+          print('final:' + url);
           if (url.contains('success')) {
             Navigator.pushNamedAndRemoveUntil(
                 context, '/success', (r) => false);
@@ -57,8 +58,8 @@ class PaymentWebViewState extends State<PaymentWebView> {
   }
 
   Future<void> _clearCache() async {
-   await _webViewController.clearCache();
-   final cookieManager = CookieManager();
-   await cookieManager.clearCookies();
+    await _webViewController?.clearCache();
+    final cookieManager = CookieManager();
+    await cookieManager.clearCookies();
   }
 }
