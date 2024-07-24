@@ -35,7 +35,6 @@ class PaymentWebViewState extends State<PaymentWebView> {
         },
         navigationDelegate: (NavigationRequest request) {
           final url = request.url;
-          print('final:' + url);
           if (url.contains('success')) {
             Navigator.pushNamedAndRemoveUntil(
                 context, '/success', (r) => false);
