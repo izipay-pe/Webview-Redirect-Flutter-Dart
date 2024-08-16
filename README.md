@@ -22,7 +22,7 @@ Este manual está diseñado para ayudarte a comprender el flujo de la integraci�
 * Comprender el flujo de comunicación de la pasarela. [Información Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/guide/start.html)
 * Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
 * Para este proyecto utilizamos **Flutter 3.20.0**
-* Ejecutar un servidor webview que genere el url de redirección. [Ejemplo Aquí](https://github.com/izipay-pe/Server-Webview-Java)
+* Ejecutar un servidor webview que genere el url de redirección. Ejemplo: [NodeJS](https://github.com/izipay-pe/Server-Webview-NodeJS) / [Java](https://github.com/izipay-pe/Server-Webview-Java)
 * Para este proyecto utilizamos la herramienta Android Studio.
 > [!NOTE]
 > Tener en cuenta que, para que el desarrollo de tu proyecto, eres libre de emplear tus herramientas preferidas.
